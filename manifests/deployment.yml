@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: pjatacgameoflifemvc 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pjatacgameoflifemvc
+  template:
+    metadata:
+      labels:
+        app: pjatacgameoflifemvc 
+    spec:
+      containers:
+        - name: pjatacgameoflifemvc 
+          image: pjazuredevtestacr.azurecr.io/pjatacgameoflifemvc
+          ports:
+          - containerPort: 80
