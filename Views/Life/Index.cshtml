@@ -18,14 +18,10 @@
 			}
 
 			function randomFull(life, row, col) {
-				life[0] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-				life[29] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-				for (i = 1; i < row - 1; i++) {
+				for (i = 0; i < row; i++) {
 					life[i] = [];
-					for (j = 1; j < col - 1; j++)
+					for (j = 0; j < col; j++)
 						life[i][j] = Math.floor(Math.random() * 2);
-					life[i][0] = 0;
-					life[i][29] = 0;
 				}
 			}
 
@@ -47,15 +43,27 @@
 				endOfmoves = 0;
 				for (let i = 0; i < 30; i++)
 					for (let j = 0; j < 30; j++)
-						if (i > 1 && j > 1 && i < 29 & j < 29) {
-							neighbor[0] = life[i - 1][j - 1];
-							neighbor[1] = life[i - 1][j];
-							neighbor[2] = life[i - 1][j + 1];
-							neighbor[3] = life[i][j - 1];
-							neighbor[4] = life[i][j + 1];
-							neighbor[5] = life[i + 1][j - 1];
-							neighbor[6] = life[i + 1][j];
-							neighbor[7] = life[i + 1][j + 1];
+						{
+							let iUp = i - 1;
+							let iDown = i + 1;
+							let jLeft = j - 1;
+							let jRight = j + 1;
+							if (iUp == -1)
+								iUp = 29;
+							if (iDown == 30)
+								iDown = 0;
+							if (jLeft == -1)
+								jLeft = 29;
+							if (jRight == 30)
+								jRight = 0;
+							neighbor[0] = life[iUp][jLeft];
+							neighbor[1] = life[iUp][j];
+							neighbor[2] = life[iUp][jRight];
+							neighbor[3] = life[i][jLeft];
+							neighbor[4] = life[i][jRight];
+							neighbor[5] = life[iDown][jLeft];
+							neighbor[6] = life[iDown][j];
+							neighbor[7] = life[iDown][jRight];
 							let sum = 0;
 							for (let k = 0; k < 8; k++) {
 								sum += neighbor[k];
