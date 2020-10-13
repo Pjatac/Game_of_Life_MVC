@@ -90,11 +90,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pjata\\source\\repos\\Game_of_Life_MVC\\Game_of_Life_MVC.csproj",
+      "projectUniqueName": "c:\\Users\\pjata\\OneDrive\\Рабочий стол\\MyProjects\\FirstPulumi\\GOL\\Game_of_Life_MVC.csproj",
       "projectName": "Game_of_Life_MVC",
-      "projectPath": "C:\\Users\\pjata\\source\\repos\\Game_of_Life_MVC\\Game_of_Life_MVC.csproj",
+      "projectPath": "c:\\Users\\pjata\\OneDrive\\Рабочий стол\\MyProjects\\FirstPulumi\\GOL\\Game_of_Life_MVC.csproj",
       "packagesPath": "C:\\Users\\pjata\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pjata\\source\\repos\\Game_of_Life_MVC\\obj\\",
+      "outputPath": "c:\\Users\\pjata\\OneDrive\\Рабочий стол\\MyProjects\\FirstPulumi\\GOL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

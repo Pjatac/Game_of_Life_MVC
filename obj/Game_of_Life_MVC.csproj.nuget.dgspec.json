@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pjata\\source\\repos\\Game_of_Life_MVC\\Game_of_Life_MVC.csproj": {}
+    "C:\\Users\\pjata\\OneDrive\\Рабочий стол\\MyProjects\\FirstPulumi\\GOL\\Game_of_Life_MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pjata\\source\\repos\\Game_of_Life_MVC\\Game_of_Life_MVC.csproj": {
+    "C:\\Users\\pjata\\OneDrive\\Рабочий стол\\MyProjects\\FirstPulumi\\GOL\\Game_of_Life_MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pjata\\source\\repos\\Game_of_Life_MVC\\Game_of_Life_MVC.csproj",
+        "projectUniqueName": "C:\\Users\\pjata\\OneDrive\\Рабочий стол\\MyProjects\\FirstPulumi\\GOL\\Game_of_Life_MVC.csproj",
         "projectName": "Game_of_Life_MVC",
-        "projectPath": "C:\\Users\\pjata\\source\\repos\\Game_of_Life_MVC\\Game_of_Life_MVC.csproj",
+        "projectPath": "C:\\Users\\pjata\\OneDrive\\Рабочий стол\\MyProjects\\FirstPulumi\\GOL\\Game_of_Life_MVC.csproj",
         "packagesPath": "C:\\Users\\pjata\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pjata\\source\\repos\\Game_of_Life_MVC\\obj\\",
+        "outputPath": "C:\\Users\\pjata\\OneDrive\\Рабочий стол\\MyProjects\\FirstPulumi\\GOL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

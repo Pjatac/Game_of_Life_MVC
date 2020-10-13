@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kTCKz7/xRWOIErx31XqevKq3N1fpHYT1aj+2mQZc0UBuDuP/WFDmOZI3lDLHeIoG96gyijlja1HshmY1qxp72g==",
+  "dgSpecHash": "sylL4o3S9EvTsrwg9gZq5H5qUj62HILwgj1QmrwI2+6eqECrvJi/iy6kjMe9P1ljBESaTOwg3IwsDCP337GqBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pjata\\source\\repos\\Game_of_Life_MVC\\Game_of_Life_MVC.csproj",
+  "projectFilePath": "C:\\Users\\pjata\\OneDrive\\Рабочий стол\\MyProjects\\FirstPulumi\\GOL\\Game_of_Life_MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pjata\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512"
   ],
